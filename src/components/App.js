@@ -4,7 +4,7 @@ import './Tooltip.css'; // Optional styling
 
 function App() {
   return (
-    <h2 style={{ padding: '50px' }}>
+    <div style={{ padding: '50px' }}>
       <Tooltip text="This is a tooltip">
         <button>Hover over me</button>
       </Tooltip>
@@ -18,7 +18,7 @@ function App() {
       <br /><br />
 
       
-    </h2>
+    </div>
   );
 }
 
